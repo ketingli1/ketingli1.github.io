@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Tell me 'hope is good thing' whenever, whatever and whatever happened.
 I'm a dream-seeker!!
+**MOTTO**: 'hope is good thing'.
+
 
 ## Education
 
