@@ -6,8 +6,6 @@ author: Kalle
 
 笔记是很重要的！！
 
-[TOC]
-
 ## 设计模式的六大原则
 
 - 开闭原则 (Open Close Principle)
