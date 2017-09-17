@@ -3,6 +3,7 @@ layout: post
 title: LINUX 学习笔记一
 author: Kalle
 ---
+linux特殊文件、别名、选项、参数
 
 ## 特殊的文件
 * ~/.bash_profile
