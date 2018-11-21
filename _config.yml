@@ -15,26 +15,18 @@
 # in the templates via {{ site.myvariable }}.
 # theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
-title: "我的媳妇叫小芳"
+title: "yunong"
 locale: en-US
 description: "记录学习点滴"
-baseurl:
-url: https://ketingli1.github.io/
 logo: /images/so-simple-site-logo.png
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
-mathjax: # MathJax equations, e.g. true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -96,11 +88,6 @@ author:
   name: yunong
   picture: /images/head_img.png
   email: mr_ktl@163.com
-  # twitter: johndoetwitter
-  links:
-    - title:
-      url:
-      icon:
 
 # Footer Links
 footer_links:
