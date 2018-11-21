@@ -16,7 +16,7 @@
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "yunong"
-description: "It really is the best."
+description: "记录学习点滴"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
