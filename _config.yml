@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "My Awesome Site"
+title: "yunong"
 description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
