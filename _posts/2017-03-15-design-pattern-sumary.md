@@ -4,7 +4,6 @@ categories:
   - 设计模式
 tags:
   - DesignPatterns
-last_modified_at: 2017-03-09T14:23:48-05:00
 ---
 
 设计模式六大设计原则和模式的分类
