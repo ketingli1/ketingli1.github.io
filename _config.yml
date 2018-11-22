@@ -16,7 +16,7 @@
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "我的媳妇叫小芳"
-description: "记录学习点滴..."
+description: "记录学习点滴"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/so-simple-site-logo.png"
@@ -31,7 +31,7 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: yunong
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
