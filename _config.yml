@@ -46,7 +46,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 1
+paginate: 2
 paginate_path: /page:num/
 
 # Search
