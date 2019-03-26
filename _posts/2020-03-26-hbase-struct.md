@@ -53,7 +53,7 @@ Hbase中拓展和负载均衡的基本单元称为region, region本质上是以�
 
 * Regions
 
-  ![20170606115324992](/Users/apple/Desktop/20170606115324992.png)
+  ![20170606115324992](/images/blog/hbase_regions.png)
 
   每一个region只能由一台region服务器(region server加载)，每一台region服务器可以同时加载多个region。
 
