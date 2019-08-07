@@ -588,7 +588,8 @@ schedulableBuilder有两种实现方式：
       })
     }
   ```
-  ## Deploy模块
+  
+## Deploy模块
 
 Spark的ClusterManager有以下几种部署方式：Standalone、Mesos、YARN、EC2、Local。不同运行模式实际上是实现了不同的`SchedulerBackend`和`TaskScheduler`
 
