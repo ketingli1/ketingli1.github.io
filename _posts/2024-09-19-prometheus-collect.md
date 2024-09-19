@@ -10,13 +10,15 @@ tags:
 # 目录
 {% include toc %}
 
-Prometheus
+基于Prometheus的remote_write 特性的数据采集
+
 ![hbase](/images/blog/prometheus/prometheus_colllect.png)
 
 ## 收集后端
 1. proto定义，来源于Prometheus源码
 remote.proto
-```proto
+
+```
 // Copyright 2016 Prometheus Team
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -66,7 +68,8 @@ message QueryResult {
 ```
 
 types.proto
-```proto
+
+```
 // Copyright 2017 Prometheus Team
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -223,6 +226,7 @@ public class RemoteController {
 
 ## 新增收集配置
 修改promethus.yml，新增remote_write的配置，如下的demo
+
 ```yml
 global:
   scrape_interval:     15s # By default, scrape targets every 15 seconds.
@@ -250,6 +254,7 @@ remote_write:
 ```
 
 ## 收集样例
+
 ```log
 2024-08-01 14:58:29 [INFO ] |io.prometheus.remote.RemoteController| - Sample: timestamp=2024-08-01T14:58:28+08:00, name=prometheus_wal_watcher_notifications_skipped_total, value=128.0, labels={instance=localhost:9090, __name__=prometheus_wal_watcher_notifications_skipped_total, monitor=codelab-monitor, job=prometheus, consumer=35dd99}
 2024-08-01 14:58:29 [INFO ] |io.prometheus.remote.RemoteController| - Sample: timestamp=2024-08-01T14:58:28+08:00, name=prometheus_wal_watcher_record_decode_failures_total, value=0.0, labels={instance=localhost:9090, __name__=prometheus_wal_watcher_record_decode_failures_total, monitor=codelab-monitor, job=prometheus, consumer=35dd99}
